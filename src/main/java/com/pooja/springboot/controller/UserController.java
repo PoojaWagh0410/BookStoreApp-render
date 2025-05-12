@@ -38,7 +38,7 @@ public class UserController {
 		return "user_login";
 	}
 
-	@GetMapping(path = "/login")
+	@GetMapping(path = "/")
 	protected String getLoginPage() {
 		return "user_login";
 	}

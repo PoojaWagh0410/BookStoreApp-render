@@ -29,12 +29,6 @@ public class BookController {
 	@Autowired
 	private UserService userService;
 
-	@GetMapping("/")
-	@ResponseBody
-	public String health() {
-		return "App is up";
-	}
-
 	@GetMapping(path = "/home")
 	public String home() {
 		return "home_page";
